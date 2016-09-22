@@ -20,3 +20,16 @@ $suzi=5;
 $otvertsie="<br>\n";
 echo wordwrap($kozlova,$suzi,$otvertsie);
 ?>
+</br>
+</br>
+<?php 
+$tools=array(
+	"a"=>"Zero",
+    "b"=>"Weapon",
+    "c"=>"Alpha",
+    "d"=>"Processor"
+	);
+asort($tools);
+$tools=array_reverse($tools);
+print_r($tools);
+?>
